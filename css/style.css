@@ -1,0 +1,54 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.mainDiv{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    
+    background-color: aquamarine;
+
+    
+}
+.centerDiv{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+}
+
+h1{
+    text-transform: capitalize;
+    margin-bottom:20px;
+    font-size: 3rem;
+
+
+
+}
+
+h2{
+    text-align: center;
+}
+textarea{
+    background-color: rgb(157, 227, 227);
+    border-radius: 10 px 10px 0 0;
+    box-shadow: 0 0 1px blue;
+    border: 4px solid red;
+    color: black;
+    font-size: 1.5rem;
+
+
+
+}
+.mainbtn{
+    border-radius: 20px;
+    font-size:1.5rem;
+    padding: 3px 2px;
+
+}
